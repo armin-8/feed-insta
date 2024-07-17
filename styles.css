@@ -1,0 +1,78 @@
+body{
+    background: #EAEAEA;
+    display: flex;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    margin: 0;
+}
+.header-section{
+    background-color: #fff;
+    width: 100%;
+    /* text-align: center; */
+    padding: 15px 0;
+    margin-bottom: 1px soid #dbdbdb;
+
+}
+
+h1{
+    margin: 0;
+    font-size: 24px;
+    padding-left: 15px;
+}
+
+.content-post{
+    background-color: #fff;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    margin: 20px 0;
+    overflow: hidden;     /*Coloca el contenido dentro del post, ya que la imagen se sale del contendedor */
+}
+
+.content-post > div{
+    padding: 10px 15px;
+}
+
+.section-img{
+    text-align: center;
+}
+
+/* Estilos que ajustan la imagen dentro del contenedor */
+
+.section-img img{
+    width: 100%;
+    height: auto;
+    max-width: 560px; /* Ajuste para que las imágenes no excedan el ancho del contenedor */
+}
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px 15px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.post-header p{
+    color: #D6DBDF;
+}
+
+.post-description{
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.post-actions{
+    display: flex;
+    justify-content: space-around;  /*Da el espacio entre los botonos de manera mas estetica*/
+    padding: 10px 15px;
+}
+
+.like-button, .comment-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #3897f0;
+}
